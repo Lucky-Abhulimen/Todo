@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/eb06fd3a29.js"></script>
+    <link rel="stylesheet" href="https://bootswatch.com/4/yeti/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>TODO APP</title>
+</head>
+<body>
+    <div class="container">
+    <header>
+    <h1><i class="text-success fas fa-list-ul mr-3"></i>TODO <span class="text-success">APP</span></h1>
+    </header> 
+    
+        <form id="task-form">
+            <input type="text" id="title" size="58" placeholder="">
+            <input type="submit" id="submit" value="ADD" class="bg-success" >
+        </form>
+
+        <div class="table-div col-sm-6 mx-auto">
+            <table class="table table-striped">
+                
+                <tbody id="table-body">
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+    
+
+    <script src="./app.js"></script>
+</body>
+</html>

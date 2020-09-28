@@ -1,0 +1,25 @@
+body,table{
+    background-color: #838383;
+    text-align: center;
+    margin: 40px auto 0;
+}
+
+#title{
+   height: 33px;
+   
+}
+
+#submit{
+    background-color: chartreuse;
+    height: 42px;
+    }
+
+    /*.table-div{
+        width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: left;*/
+    
+    #table-body{
+        text-align: left;
+    }

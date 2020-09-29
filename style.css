@@ -1,17 +1,26 @@
-body,table{
-    background-color: #838383;
+body{
+    
     text-align: center;
     margin: 40px auto 0;
+
+    background-color: #edc988;
+    font-size: medium;
 }
 
 #title{
-   height: 33px;
+   height: 42px;
+   margin-left: 45px;
    
 }
 
 #submit{
-    background-color: chartreuse;
     height: 42px;
+    width: 40px;
+    }
+
+    .check {
+         width: 26px;
+        height: 26px;
     }
 
     /*.table-div{
@@ -22,4 +31,43 @@ body,table{
     
     #table-body{
         text-align: left;
+        position: relative;
+        left: 30px;
+    }
+
+
+    /* MOBILE DESIGN*/
+    @media screen and (max-width:768px) {
+        h1 {
+            margin: auto;
+
+        }
+
+        #title {
+            width: 360px;
+        }
+
+        
+
+        #task-form {
+            margin: 0 auto;
+        }
+
+        #table-body {
+            font-size: 15px;
+        }
+    }
+
+    @media screen and (max-width:420px) {
+
+        #task-form {
+            position: relative;
+            right: 20px;
+
+        }
+
+        #title {
+            width: 230px;
+
+        }
     }
